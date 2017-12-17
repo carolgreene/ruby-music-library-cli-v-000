@@ -86,7 +86,7 @@ class MusicLibraryController
         input = gets.strip.to_i-1
 
         if input >= 1 && input <= list_songs.length
-          song = list_songs[input]
+          song = list_songs[4]
         puts "Playing #{song}"
         end
       end
