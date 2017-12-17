@@ -33,8 +33,8 @@ class Song
     @@all << self
   end
 
-  def self.create(name, artist = nil, genre = nil)
-    self.new(name, artist, genre).tap {|song| song.save}
+  def self.create(name)
+    self.new(name).tap {|song| song.save}
   end
 
   def self.find_by_name(name)
