@@ -53,7 +53,7 @@ class MusicLibraryController
         if artist
           artist.each_with_index do |song, idx|
             puts "${ idx } { song.name }"
-          end          
+          end
         end
       end
 
