@@ -50,7 +50,11 @@ class MusicLibraryController
         input = gets.strip
 
         artist =  Artist.find_by_name(input)
-
+        if artist
+          artist.each_with_index do |song, idx|
+            puts "${ idx } { song.name }"
+          end          
+        end
       end
 
 
