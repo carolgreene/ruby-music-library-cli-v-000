@@ -86,6 +86,7 @@ class MusicLibraryController
 
         if input => 1 && input <= list_songs.length
           choice = list_songs.songs[input]
+        end
         puts "Playing #{choice.name}by #{choice.artist.name}"
         end
       end
