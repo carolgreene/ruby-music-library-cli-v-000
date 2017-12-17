@@ -51,8 +51,8 @@ class MusicLibraryController
 
         artist =  Artist.find_by_name(input)
         if artist
-          artist.each_with_index do |song, idx|
-            puts "${ idx } { song.name }"
+          artist.each do |song|
+            puts "${ song.name }"
           end
         end
       end
