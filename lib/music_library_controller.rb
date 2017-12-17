@@ -51,7 +51,7 @@ class MusicLibraryController
         binding.pry
         if Artist.find_by_name(input)
 
-          end
+
 
         end
 
