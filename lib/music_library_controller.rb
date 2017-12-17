@@ -88,7 +88,7 @@ class MusicLibraryController
         input = gets.strip.to_i-1
         choice = songs[input]
         if input >= 0 && input <= songs.length + 1
-          binding.pry
+
           puts "Playing #{choice.name} by #{choice.artist.name}"
         end
       end
