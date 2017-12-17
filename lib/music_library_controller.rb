@@ -87,7 +87,7 @@ class MusicLibraryController
 
         if input <= list_songs.length
           song = list_songs[input]
-        puts "Playing #{song.name} by #{song.artist.name}"
+        puts "Playing #{song}"
         end
       end
 
