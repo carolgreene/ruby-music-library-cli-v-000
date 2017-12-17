@@ -50,12 +50,12 @@ class MusicLibraryController
         input = gets.strip
 
         artist =  Artist.find_by_name(input)
-        
-        end
-
-
-
+        binding.pry
       end
+
+
+
+
 
       def list_songs_by_genre
         puts "Please enter the name of a genre:"
