@@ -75,5 +75,5 @@ class MusicLibraryController
         song = Song.all[input]
         puts "Playing #{song}"
       end
-    
+
   end
