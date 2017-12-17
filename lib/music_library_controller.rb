@@ -50,7 +50,7 @@ class MusicLibraryController
         input = gets.strip
 
         artist =  Artist.find_by_name(input)
-        
+
       end
 
 
