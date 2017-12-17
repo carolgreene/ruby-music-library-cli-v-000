@@ -52,7 +52,7 @@ class MusicLibraryController
         artist =  Artist.find_by_name(input)
         if artist
           artist.each do |song|
-            puts "${ song.name }"
+            puts "#{ song.name }"
           end
         end
       end
