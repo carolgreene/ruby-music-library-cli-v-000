@@ -66,10 +66,12 @@ class MusicLibraryController
             sorted_genre.each.with_index(1) do |song, index|
               puts "#{index}. #{song.artist.name} - #{song.name}"
             end
-          end
+          end          
       end
 
-
+      def play_song
+        puts "Please enter the name of a song:"
+      end
 
 
 
