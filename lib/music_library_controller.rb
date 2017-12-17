@@ -74,6 +74,7 @@ class MusicLibraryController
         input = gets.strip
         if input <= Song.all.length
           puts "Playing"
+        end
       end
 
 
